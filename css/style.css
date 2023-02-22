@@ -95,19 +95,16 @@ img{
 @media (min-width: 800px){
   nav{
     padding-top: 35px;
-    
-
     text-align:right;
   }
-  }
   
+
 /* Requirement 10 code here -- Do not remove this comment. */
   nav li{
     margin-left: 5%;
     margin-right:0;
   }
 
- 
 
   
   /* Requirement 11 code here -- Do not remove this comment. */
@@ -136,7 +133,8 @@ img{
 
   /* Requirement 15 code here -- Do not remove this comment. */
 .about-image, .clients-image, .method-image, .contact-image{
-  
+  overflow: hidden;
+}
 }
 
 /** Code for prefers reduced motion **/
